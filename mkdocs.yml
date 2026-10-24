@@ -1,0 +1,50 @@
+site_name: Gina Rodríguez | Portafolio
+site_description: Portafolio profesional de Gina Rodríguez, estudiante de Tecnólogo en Informática
+site_author: Gina Rodríguez
+site_url: https://ginarodriguez2005.github.io/portfolio/
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  icon:
+    logo: material/code-braces
+nav:
+  - Inicio: index.md
+  - Proyectos:
+      - Vista general: proyectos/index.md
+      - AeroMetrics: proyectos/aerometrics.md
+      - Planificación Docente con IA: proyectos/planificacion-docente.md
+      - Original Baby Kid Store: proyectos/original-baby-kid-store.md
+      - Study Swap: proyectos/study-swap.md
+  - Experiencia y formación: experiencia.md
+  - Contacto: contacto.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+extra_css:
+  - assets/estilos.css
+copyright: © 2026 Gina Rodríguez
