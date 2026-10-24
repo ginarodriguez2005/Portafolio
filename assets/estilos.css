@@ -1,0 +1,5 @@
+.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.2rem 0; }
+.portfolio-card { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 12px; padding: 1rem 1.1rem; background: var(--md-code-bg-color); }
+.portfolio-card h3 { margin-top: 0; }
+.portfolio-card p { margin-bottom: .65rem; }
+.portfolio-card a { font-weight: 600; }
